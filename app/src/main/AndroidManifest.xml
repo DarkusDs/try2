@@ -9,12 +9,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".GM1Activity"></activity>
-        <activity android:name=".OptionsActivity" />
-        <activity android:name=".RaidActivity" />
-        <activity android:name=".ShopActivity" />
-        <activity android:name=".CollectionActivity" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".GM1Activity"
+            android:screenOrientation="landscape"></activity>
+        <activity android:name=".OptionsActivity"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".RaidActivity"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".ShopActivity"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".CollectionActivity"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".MainActivity"
+            android:screenOrientation="landscape">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
